@@ -2,6 +2,7 @@
 
 ```
 $id= '"'.$id.'"';
+$sql="SELECT * FROM security.users WHERE id=$id LIMIT 0,1";
 ```
 
 - Làm bình thường với `"`

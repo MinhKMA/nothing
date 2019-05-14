@@ -1,3 +1,9 @@
+- code 
+
+```
+$sql="SELECT * FROM security.users WHERE id='$id' LIMIT 0,1";
+```
+
 - Bước 1: ID = 1
 
 `http://10.10.10.171/sqli-labs/Less-54/index.php?id=1`

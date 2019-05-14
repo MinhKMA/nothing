@@ -1,3 +1,9 @@
+- Code 
+
+```
+$sql="SELECT * FROM security.users WHERE id=($id) LIMIT 0,1";
+```
+
 - Tương tự các bước less 54 nhưng thay thế  `'` thành `)`
 
 ```
